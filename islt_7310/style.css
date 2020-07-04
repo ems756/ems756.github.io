@@ -1,11 +1,12 @@
 /*Style for headings*/
-h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif}
+h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; background-color: lightcyan; background-size: contain; border-style: dashed; border-color:#0099ff;}
 
 h2 {clear: left;padding-top: 10px;}
 
 h3 {color: #0099ff; font-size: 15pt;}
 
 /*Style for elements*/
+body {background-color: aliceblue}
 p.body {font-size: 12pt; text-align: center;}
 
 section li {list-style-type: square;}
@@ -14,7 +15,9 @@ ul.a {color:darkblue}
 
 ul.b {color: deepskyblue}
 
-img {float: left;}
+img {float: left; padding-right: 15px; margin-left: 10px;}
+
+footer {border-top-color: #0099ff; border-top-style: dashed}
 
 /*Style for Copyright text*/
 .copyright {font-size: 13px; text-align: left;}
