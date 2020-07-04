@@ -1,5 +1,20 @@
-/*Style for h1 heading*/
-h1 {color: #0099ff;}
+/*Style for headings*/
+h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif}
+
+h2 {clear: left;padding-top: 10px;}
+
+h3 {color: #0099ff; font-size: 15pt;}
+
+/*Style for elements*/
+p {font-size: 12pt; text-align: center;}
+
+section li {list-style-type: square;}
+
+ul.a {color:darkblue}
+
+ul.b {color: deepskyblue}
+
+img {float: left;}
 
 /*Style for Copyright text*/
 .copyright {font-size: 10pt;}
