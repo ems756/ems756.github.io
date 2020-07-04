@@ -6,7 +6,7 @@ h2 {clear: left;padding-top: 10px;}
 h3 {color: #0099ff; font-size: 15pt;}
 
 /*Style for elements*/
-p {font-size: 12pt; text-align: center;}
+p.body {font-size: 12pt; text-align: center;}
 
 section li {list-style-type: square;}
 
@@ -17,7 +17,7 @@ ul.b {color: deepskyblue}
 img {float: left;}
 
 /*Style for Copyright text*/
-.copyright {font-size: 10pt;}
+.copyright {font-size: 13px; text-align: left;}
 
 /*Style for email link*/
 a:link{color: green;}
