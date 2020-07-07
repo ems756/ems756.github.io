@@ -1,15 +1,42 @@
+/*Use:  To style the portfolio website.
+
+Author:  Emily Sheeley
+
+School/Term:  University of Missouri, Summer 2020
+
+Developed: July 6, 2020
+
+Tested:  July 6, 2020; Passed on Safari and Chrome browsers.*/
+
 /*Style for headings*/
-h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; background-color: lightcyan; background-size: contain; border-style: dashed; border-color:#0099ff;}
+h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; background-color: lightcyan; background-size: contain; border-style: dashed; border-color:#0099ff; display: inline;}
 
 h2 {clear: left;padding-top: 10px;}
 
 h3 {color: #0099ff; font-size: 15pt;}
 
 /*Style for elements*/
-body {background-color: aliceblue}
-p.body {font-size: 12pt; text-align: center;}
+body {background-color: aliceblue; font-family: sans-serif;margin: 15px;}
 
-section li {list-style-type: square;}
+main {padding-right: 15px;padding-left: 15px;text-align: center}
+
+section {font-size: 12pt; text-align: center;}
+
+.column {float: left;
+  width: 45%;
+  padding: 10px;
+    height: 100px;}
+
+.column2 {float: right;
+  width: 45%;
+  padding: 10px;
+    height: 100px;}
+
+.row:after {content: "";
+  display: table;
+  clear: both;} 
+
+section li {list-style-type: square;text-align: left}
 
 ul.a {color:darkblue}
 
@@ -17,7 +44,7 @@ ul.b {color: deepskyblue}
 
 img {float: left; padding-right: 15px; margin-left: 10px;}
 
-footer {border-top-color: #0099ff; border-top-style: dashed}
+footer {border-top-color: #0099ff; border-top-style: dashed; padding-bottom: 5px;}
 
 /*Style for Copyright text*/
 .copyright {font-size: 13px; text-align: left;}
