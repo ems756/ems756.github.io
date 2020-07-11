@@ -4,9 +4,9 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 6, 2020
+Developed: July 10, 2020
 
-Tested:  July 6, 2020; Passed on Safari and Chrome browsers.*/
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.*/
 
 /*Style for headings*/
 h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; background-color: lightcyan; background-size: contain; border-style: dashed; border-color:#0099ff; display: inline;}
@@ -36,7 +36,7 @@ section {font-size: 12pt; text-align: center;}
   display: table;
   clear: both;} 
 
-section li {list-style-type: square;text-align: left}
+section li {list-style-type: square; text-align: left}
 
 ul.a {color:darkblue}
 
@@ -44,16 +44,18 @@ ul.b {color: deepskyblue}
 
 img {float: left; padding-right: 15px; margin-left: 10px;}
 
+blockquote {font-style: italic; color: #0099ff;}
+
 footer {border-top-color: #0099ff; border-top-style: dashed; padding-bottom: 5px;}
 
 /*Style for Copyright text*/
 .copyright {font-size: 13px; text-align: left;}
 
 /*Style for email link*/
-a:link{color: green;}
+a:link{color: #0099ff;text-decoration: none;}
+a:visited{color: darkblue;text-decoration: none;}
 a:hover{color: blue;}
 a:focus{color: blue;}
-a:visited{color: red;}
-a:active{color: red;}
-a{text-decoration: none; font-style: italic; font-size: 10pt;}
+a:active{color: blue;}
+a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
 

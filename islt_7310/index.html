@@ -13,9 +13,9 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 6, 2020
+Developed: July 10, 2020
 
-Tested:  July 6, 2020; Passed on Safari and Chrome browsers.
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 
 ******************************************************************************
 
@@ -23,18 +23,37 @@ Tested:  July 6, 2020; Passed on Safari and Chrome browsers.
         <meta charset="utf-8">
         <title> Sheeley Portfolio Home Page</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="nav stylesheet" href="nav.css">
     </head>
     <body>
-        <header>
-            <h1>Emily Sheeley</h1>
-        </header>
+        <nav>
+            <ul class="Nav">
+                <li class="active"><a style= "font-size: 13pt" href= "index.html">Home</a></li>
+                <li><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
+                <li><a style= "font-size: 13pt" href="projects.html">Projects</a>
+                    <ul>
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </li>
+                <li><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
+                <li><a style= "font-size: 13pt" href=#contact.html>Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
         <main>
+            <header>
+                <h1>Emily Sheeley</h1>
+            </header>
             <img src="images/Sheeley.png" alt="This is a photo of Emily Sheeley." height="300" width="200">
             <p class="Para1">Welcome! Thank you for visiting my website. Please take some time to explore.</p>
             <p class="Para2">This website will allow you to explore my learning from the courses that I have taken throughout the program as well as see how my learning has aligned with ISTE standards.</p>
             <br>
             <p class="Para3">My name is Emily Sheeley and I am a 2nd grade teacher in a local school district in southwest Missouri. I have completed my Master’s degree in Library Science and would eventually love to do something in a library, but for now I am happy to continue in the classroom! Before moving into the classroom, I was an Instructional Technologist, which meant I taught computers to students, but also helped teachers with technology. I have always loved learning about technology and how it can be used in the classroom, so I am pursuing a degree to learn more about that. In my personal time, I love spending time with friends and family, spending time outdoors, traveling, and doing craft projects. I enjoy volunteering with STEAM Club at school as well as at my church. Also, I LOVE reading, so you will probably always find me reading something!</p>
-            </main>
             <br>
             <section>
             <h2>Degree Information</h2>
@@ -60,10 +79,11 @@ Tested:  July 6, 2020; Passed on Safari and Chrome browsers.
             <blockquote>“Classrooms don’t need tech geeks who can teach. We need teaching geeks who can use tech.” -David Geurin</blockquote>
             <br>
             </section>
+        </main>
         <footer>
             <p style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
             <address>
-                <a style="font-size: 13px" href="mailto:ems756@mail.missouri.edu">ems756@mail.missouri.edu</a>
+                <a class= "email" style="font-size: 13px" href="mailto:ems756@mail.missouri.edu">ems756@mail.missouri.edu</a>
             </address>
             <p class= "copyright">&copy; 2020 Emily Sheeley</p>
         </footer>

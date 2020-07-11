@@ -13,9 +13,9 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 6, 2020
+Developed: July 10, 2020
 
-Tested:  July 6, 2020; Passed on Safari and Chrome browsers.
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.
 
 ******************************************************************************
 
@@ -23,31 +23,50 @@ Tested:  July 6, 2020; Passed on Safari and Chrome browsers.
         <meta charset="utf-8">
         <title>Sheeley Portofolio Resume Page</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="nav stylesheet" href="nav.css">
         <style>
-            body{font-size: 15pt; font-family: sans-serif;}
-            a:link{color: green;}
-            a:hover{color: blue;}
-            a:focus{color: blue;}
-            a:visited{color: red;}
-            a:active{color: red;}
+            a:link{color: #0099ff;}
+            a:visited{color: blue;}
+            a:hover{color: darkblue;}
+            a:focus{color: darkblue;}
+            a:active{color: blue;}
         </style>
     </head>
     <body>
-        <header>
-            <h1>Emily Sheeley's Resume</h1>
-        </header>
+        <nav>
+            <ul class="Nav">
+                <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
+                <li class="active"><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
+                <li><a style= "font-size: 13pt" href="projects.html">Projects</a>
+                    <ul>
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </li>
+                <li><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
+                <li><a style= "font-size: 13pt" href=#contact.html>Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
         <main>
+            <header>
+                <h1>Resume</h1>
+            </header>
             <p>Click <a href="docs/Sheeleyresume.pdf" style="font-size: 15pt; text-decoration: underline; font-style: normal;">here</a> to view my resume.</p>
         </main>
-    <br>
-    <br>
-    <br>
-    <footer>
-        <p style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
-        <address>
-            <a style="font-size: 13px" href="mailto:ems756@mail.missouri.edu">ems756@mail.missouri.edu</a>
-        </address>
-        <p class= "copyright">&copy; 2020 Emily Sheeley</p>
-    </footer>
+            <br>
+            <br>
+            <br>
+        <footer>
+            <p style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
+            <address>
+                <a style="font-size: 13px" href="mailto:ems756@mail.missouri.edu">ems756@mail.missouri.edu</a>
+            </address>
+            <p class= "copyright">&copy; 2020 Emily Sheeley</p>
+        </footer>
     </body>
 </html>

@@ -1,0 +1,66 @@
+/*Use:  To style the navigation bar.
+
+Author:  Emily Sheeley
+
+School/Term:  University of Missouri, Summer 2020
+
+Developed: July 10, 2020
+
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.*/
+
+/*Style for navigation bar.*/
+
+.active a:link {
+    background-color: lightgray;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 150px;
+    padding: 0; 
+}
+
+nav>ul li {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: #0099ff;
+    float: left;
+}
+
+nav ul li{
+    margin-bottom: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: 3px dashed #0099ff;
+    padding: 15px 15px 15px 15px;
+    width: 150px;
+    margin: 2px;
+}
+
+nav a:link {
+    background-color: white;
+}
+nav a:hover, nav a:focus {
+    background-color: antiquewhite;
+}
+nav a:active{
+    background-color: aqua;
+}
+
+nav ul>li ul{
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float: none;
+}
+
+nav>ul>li:hover>ul{
+    display: block;
+}
