@@ -13,23 +13,24 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 10, 2020
+Developed: July 17, 2020
 
-Tested:  July 10, 2020; Passed on Chrome and Safari browsers.
+Tested:  July 17, 2020; Passed on Chrome and Safari browsers.
 
 ******************************************************************************
 
             -->
             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Sheeley Portfolio Reflection Page</title>
             <link rel="stylesheet" href="style.css">
             <link rel="nav stylesheet" href="nav.css">
             <style>
                 section {
-                    width: 1100px;
+                    width: 100%;
                     border: none;
                     padding: 10px;
-                    margin: 5px;
+                    margin: 10px;
                 }
                 p.a:first-letter {font-weight: 800;}
                 p.b {text-indent: 50px;}
@@ -38,20 +39,21 @@ Tested:  July 10, 2020; Passed on Chrome and Safari browsers.
         </head>
         <body>
             <nav>
-                <ul class="Nav">
-                    <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
-                    <li><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
-                    <li><a style= "font-size: 13pt" href="projects.html">Projects</a>
-                        <ul>
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                            <li><a href="#">Project 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="active"><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
-                    <li><a style= "font-size: 13pt" href=#contact.html>Contact</a></li>
-                </ul>
-            </nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
+                <li><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
+                <li><a style= "font-size: 13pt" href="projects.html">Projects</a>
+                    <ul id="MobileHide">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
+                <li id="LastMobile"><a style= "font-size: 13pt" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
             <br>
             <br>
             <br>
@@ -60,20 +62,59 @@ Tested:  July 10, 2020; Passed on Chrome and Safari browsers.
                 <header>
                     <h1>Reflection</h1>
                 </header>
-                <section class="Reflect">
-                    <h2>Experience in the Program</h2>
-                        <p class="a">This is my first semester in the program so I do not have many experiences to reflect upon, however, I am excited to try new things with technology and learn many things as well. From my two courses that I am in thus far, I have been challenged to work with different computer programs and languages and it has been interesting to step outside of my comfort zone. However, it makes me think of this quote:</p>
+                <section id="reflect">
+                    <div class="row">
+                        <div class="column" style="background-color:aliceblue;">
+                            <h2>Experience in the Program</h2>
+                            <p class="a">This is my first semester in the program so I do not have many experiences to reflect upon, however, I am excited to try new things with technology and learn many things as well. From my two courses that I am in thus far, I have been challenged to work with different computer programs and languages and it has been interesting to step outside of my comfort zone. However, it makes me think of this quote:</p>
+                            <br>
+                            <blockquote>“No one likes to move beyond their comfort zone, but as the saying goes, that’s where the magic happens. It’s where we grow, learn, and develop in a way that expands our horizons beyond what we thought was possible.” -Andy Molinsky</blockquote>
+                            <br>
+                            <p class="b">So far, both classes have taught me a lot. This class will give me a good base knowledge of how websites work and will enable me to apply various design ideas and practices to other projects that I may do in the future. My statistics class is working to give me an understanding about how to work with and interpret data from research. </p>
+                        </div>
+                        <div class="column2" style="background-color:aliceblue;">
+                            <h2 id="skills">How I Will Use the Skills in my Profession</h2>
+                            <p class="c">I plan to use the skills, ideas, and methods that I have learned and will learn throughout this program to better incorporate technology into my classroom and other areas of my work. I am excited to learn how to effectively use technology with students so that it enhances their learning, instead of just using technology for the sake of using it. I am also hoping to learn of some new tools and strategies that I can incorporate into my teaching.</p>
+                        </div>
+                    </div>
                         <br>
-                            <blockquote>“No one likes to move beyond their comfort zone, but as the saying goes, that’s 		where the magic happens. It’s where we grow, learn, and develop in a way that expands our horizons beyond what we thought was possible.” -Andy Molinsky</blockquote>
-                        <br>
-                        <p class="b">So far, both classes have taught me a lot. This class will give me a good base knowledge of how websites work and will enable me to apply various design ideas and practices to other projects that I may do in the future. My statistics class is working to give me an understanding about how to work with and interpret data from research. </p>
-                        <br>
-                    <h2>How I Will Use the Skills in my Profession</h2>
-                        <p class="c">I plan to use the skills, ideas, and methods that I have learned and will learn throughout this program to better incorporate technology into my classroom and other areas of my work. I am excited to learn how to effectively use technology with students so that it enhances their learning, instead of just using technology for the sake of using it. I am also hoping to learn of some new tools and strategies that I can incorporate into my teaching.</p>
                 </section>
             </main>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
             <footer>
-                <p style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
+                <p id="footer_reflect" style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
                 <address>
                     <a class= "email" style="font-size: 13px" href="mailto:ems756@mail.missouri.edu">ems756@mail.missouri.edu</a>
                 </address>

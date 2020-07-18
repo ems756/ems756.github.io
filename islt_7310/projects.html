@@ -21,25 +21,27 @@ Tested:  July 10, 2020; Passed on Chrome and Safari browsers.
 
             -->
             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Sheeley Portfolio Projects Page</title>
             <link rel="stylesheet" href="style.css">
             <link rel="nav stylesheet" href="nav.css">
         </head>
         <body>
             <nav>
-                <ul class="Nav">
-                    <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
-                    <li><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
-                    <li class="active"><a style= "font-size: 13pt" href="projects.html">Projects</a>
-                        <ul>
-                            <li><a href="#">Project 1</a></li>
-                            <li><a href="#">Project 2</a></li>
-                            <li><a href="#">Project 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
-                    <li><a style= "font-size: 13pt" href=#contact.html>Contact</a></li>
-                </ul>
-            </nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
+                <li><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
+                <li class="active"><a style= "font-size: 13pt" href="projects.html">Projects</a>
+                    <ul id="MobileHide">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                    </ul>
+                </li>
+                <li><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
+                <li id="LastMobile"><a style= "font-size: 13pt" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         </body>
     </html>
