@@ -51,7 +51,24 @@ blockquote {font-style: italic; color: #0099ff;}
 
 footer {border-top-color: #0099ff; border-top-style: dashed; padding-bottom: 5px; clear: both;}
 
-#resume {clear:left;}
+.box { 
+width: auto;
+height: 45%;
+background-image: url(images/background%20image.jpg)
+}
+
+#resume {
+    padding-top: 100px;
+    float: right;
+    padding-right: 75px;
+   }
+
+.iframe-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    float: left;
+    width: 45%;
+}
 
 #reflect {text-align: justify; clear: left;}
 
@@ -189,4 +206,30 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         clear: both;
         display: table;
     }
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 25%;
+        height: 0;
+        min-width: 50px;
+    }
+    
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #resume {
+        float:none;
+        padding-top: 25%;
+        padding-bottom: 25%;
+    }
+    
+    footer {
+        clear: both;
+    }
+
 }
