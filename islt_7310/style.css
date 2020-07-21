@@ -8,6 +8,12 @@ Developed: July 17, 2020
 
 Tested:  July 17, 2020; Passed on Safari and Chrome browsers.*/
 
+@font-face {
+    font-family: Allura; 
+    src: url(ems756.github.io/islt_7310/Allura webfontkit/allura-regular-demo.html);
+    src: url(ems756.github.io/islt_7310/Allura webfontkit/allura-regular-webfont.woff);
+    src: url(ems756.github.io/islt_7310/Allura webfontkit/allura-regular-webfont.woff2);
+    }
 /*Style for headings*/
 h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; background-color: lightcyan; background-size: contain; border-style: dashed; border-color:#0099ff; display: inline; float:left; clear: both;}
 
@@ -47,7 +53,7 @@ ul.b {color: deepskyblue}
 
 img {float: left; padding-right: 15px; margin-left: 10px; clear: left; }
 
-blockquote {font-style: italic; color: #0099ff;}
+blockquote {font-style: italic; font-family:Allura; color: #0099ff;font-size: 18pt;}
 
 footer {border-top-color: #0099ff; border-top-style: dashed; padding-bottom: 5px; clear: both;}
 
@@ -55,6 +61,7 @@ footer {border-top-color: #0099ff; border-top-style: dashed; padding-bottom: 5px
 width: auto;
 height: 45%;
 background-image: url(images/background%20image.jpg)
+    
 }
 
 #resume {
@@ -68,6 +75,12 @@ background-image: url(images/background%20image.jpg)
     padding-bottom: 80px;
     float: left;
     width: 45%;
+}
+
+.box p {color: white;}
+
+#email link {
+    color: white;
 }
 
 #reflect {text-align: justify; clear: left;}
@@ -233,3 +246,45 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
     }
 
 }
+
+/*Print stylesheet*/
+@media print {
+    *{
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    }
+    
+    nav {
+    display: none;
+    }
+
+    h1, 
+    p {
+        text-align: center;
+        width: 100%;
+        font-family: serif;
+        border: none;
+    }
+    
+    img{
+        float: none;
+        width:35%;
+    }
+    
+    @page {
+        margin: .5cm;
+    }
+    
+    h2 {
+        page-break-before: always;
+        font-family: serif;
+    }
+    
+    .Para4 {
+        float: left;
+        clear: both;
+    }
+}
+
