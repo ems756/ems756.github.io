@@ -4,42 +4,23 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 23, 2020
+Developed: July 10, 2020
 
-Tested:  July 23, 2020; Passed on Safari and Chrome browsers.*/
-
-@font-face {
-    font-family: Shadows_Into_Light_Two; 
-    src: url(ems756.github.io/islt_7310/docs/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf);
-    }
+Tested:  July 10, 2020; Passed on Safari and Chrome browsers.*/
 
 /*Style for navigation bar.*/
 #hamburger {
     display:none;
 }
-
 .active a:link {
     background-color: lightgray;
-}
-
-#name {
-    margin-top: 0;
-    float:left;
-    font-family:'Shadows_Into_Light_Two', serif;
-    color:#0099ff;
-    font-size: 45px;
-    position: relative;
-    border: none;
-    background-color: aliceblue;
-    padding-top: 0px;
 }
 nav ul {
     list-style-type: none;
     margin-top: 0;
     margin-left: 10px;
-    margin-right: 15px;
+    margin-right: 150px;
     padding: 0; 
-    float: right;
 }
 
 nav>ul li {
@@ -47,7 +28,6 @@ nav>ul li {
     text-align: center;
     font-weight: bold;
     color: #0099ff;
-    font-size: 12pt;
     float: left;
 }
 
@@ -58,8 +38,8 @@ nav ul li{
 nav a {
     text-decoration: none;
     display: inline-block;
-    border: 2px dashed #0099ff;
-    padding: 5px 5px 5px 5px;
+    border: 3px dashed #0099ff;
+    padding: 15px 15px 15px 15px;
     width: 150px;
     margin: 2px;
 }
@@ -67,8 +47,7 @@ nav a {
 nav a:link {
     background-color: white;
 }
-nav a:hover, 
-nav a:focus {
+nav a:hover, nav a:focus {
     background-color: antiquewhite;
 }
 nav a:active{

@@ -25,10 +25,12 @@ Tested:  July 17, 2020; Passed on Chrome and Safari browsers.
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="style.css">
             <link rel="nav stylesheet" href="nav.css">
+            <link rel= "shortcut icon" type="image/png" href="images/favicon.png.ico">
         </head>
         <body>
             <nav>
                 <label id="hamburger">&#9776;</label>
+                <h1 id="name">Emily Sheeley</h1>
                 <ul>
                     <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
                     <li><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
@@ -58,32 +60,27 @@ Tested:  July 17, 2020; Passed on Chrome and Safari browsers.
             <main id="contact">
                 <div id="after_submit"></div>
                 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                    <aside>
+                    <div class="row2">
                         <div class="column3">
-                            <label class="required" for="name">Your name:</label><br />
-                            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-                            <span id="name_validation" class="error_message"></span>
-                        </div>
+                            <label class="required" for="subject">Your name:</label><br />
+                            <input id="subject" class="input" name="name" size="30"><br />
+                            <span id="subject_validation" class="error_message"></span>
                         <br>
-                        <div class="column3">
                             <label class="required" for="email">Your email:</label><br />
-                            <input id="email" class="input"     name="email" type="text" value="" size="30" /><br />
+                            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
                             <span id="email_validation" class="error_message"></span>
                         </div>
-                    </aside>
-                    <section>
+            
                         <div class="column4">
                             <label class="required" for="subject">Subject:</label><br />
                             <input id="subject" class="input" name="subject" size="30"><br />
                             <span id="subject_validation" class="error_message"></span>
-                        </div>
                         <br>
-                        <div class="column4">
                             <label class="required" for="message">Your message:</label><br />
-                            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
+                            <textarea id="message" class="input" name="message" rows="5" cols="30"></textarea><br/>
                             <span id="message_validation" class="error_message"></span>
                         </div>
-                    </section>
+                    </div>
                     <br>
                     <br>
                     <br>
@@ -92,9 +89,12 @@ Tested:  July 17, 2020; Passed on Chrome and Safari browsers.
              </main>
             <footer>
                 <p style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
+                <img src="images/email%20icon.png" alt="email icon" height="20" width="15" id="email">
                 <address>
-                    <a class= "email" style="font-size: 13px" href="mailto:ems756@mail.missouri.edu">ems756@mail.missouri.edu</a>
+                    <a style="font-size: 13px" href="mailto:ems756@mail.missouri.edu" id="email link">ems756@mail.missouri.edu</a>
                 </address>
+                <img src="images/phone%20icon.png" alt="phone  icon" height="20" width="15" id="phone">
+                <p>+1 (888) 888-8888</p>
                 <p class= "copyright">&copy; 2020 Emily Sheeley</p>
             </footer>
         </body>

@@ -4,24 +4,23 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 17, 2020
+Developed: July 23, 2020
 
-Tested:  July 17, 2020; Passed on Safari and Chrome browsers.*/
+Tested:  July 23, 2020; Passed on Safari and Chrome browsers.*/
 
 @font-face {
-    font-family: Allura; 
-    src: url(ems756.github.io/islt_7310/Allura webfontkit/allura-regular-demo.html);
-    src: url(ems756.github.io/islt_7310/Allura webfontkit/allura-regular-webfont.woff);
-    src: url(ems756.github.io/islt_7310/Allura webfontkit/allura-regular-webfont.woff2);
+    font-family: Shadows_Into_Light_Two; 
+    src: url(ems756.github.io/islt_7310/docs/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf);
     }
 /*Style for headings*/
-h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; background-color: lightcyan; background-size: contain; border-style: dashed; border-color:#0099ff; display: inline; float:left; clear: both;}
+h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; display: inline; float:left; clear: both;}
 
 h2 {clear: left; padding-top: 10px;}
 
 h3 {color: #0099ff; font-size: 15pt;}
 
 /*Style for elements*/
+
 body {background-color: aliceblue; font-family: sans-serif; margin: 15px; text-align: justify;}
 
 main {padding-right: 15px; padding-left: 15px; text-align: center;}
@@ -53,9 +52,13 @@ ul.b {color: deepskyblue}
 
 img {float: left; padding-right: 15px; margin-left: 10px; clear: left; }
 
-blockquote {font-style: italic; font-family:Allura; color: #0099ff;font-size: 18pt;}
+blockquote {font-family:'Shadows_Into_Light_Two', serif; color: #0099ff;font-size: 18pt;}
 
-footer {border-top-color: #0099ff; border-top-style: dashed; padding-bottom: 5px; clear: both;}
+footer {border-top-color: #0099ff; 
+    border-top-style: dashed; 
+    padding-bottom: 5px; 
+    clear: both;
+}
 
 .box { 
 width: auto;
@@ -89,18 +92,27 @@ background-image: url(images/background%20image.jpg)
 
 #submit_button {clear: both; background-color: aqua; width: 10%; height: 10%; padding: 10px; margin: auto;}
 
-
 .column3 {float: left;
-width: 45%;
-padding: 10px;
-height: auto;
-clear:left;}
+  width: 45%;
+  padding: 10px;
+    height: 100px;
+    clear: left;
+  }
 
 .column4 {float: right;
-width: 45%;
-padding: 10px;
-height: auto;
-clear: right;}
+  width: 45%;
+  padding: 10px;
+    padding-right: 50px;
+    height: 100px;
+}
+
+.row2:after {content: "";
+  display: table;
+  clear: both;} 
+
+#contact {
+    padding-bottom: 5%;
+}
 
 /*Style for Copyright text*/
 .copyright {font-size: 13px; text-align: left;}
@@ -151,11 +163,7 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         display: block;
         clear: both;
     }
-    aside {
-        float: none;
-        text-align: center;
-        clear: both;
-    }
+    
     #reflect {
         float: none;
         text-align: justify;
@@ -207,13 +215,10 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         width: 60%;
         text-align: center;
         clear: both;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    aside {
-        float: none;
-        display: block;
-        width: 100%;
-        
-    }
+    
     .clearfix::after {
         content: "";
         clear: both;
@@ -240,11 +245,6 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         padding-top: 25%;
         padding-bottom: 25%;
     }
-    
-    footer {
-        clear: both;
-    }
-
 }
 
 /*Print stylesheet*/
