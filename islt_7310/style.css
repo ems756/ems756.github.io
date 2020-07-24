@@ -13,17 +13,17 @@ Tested:  July 23, 2020; Passed on Safari and Chrome browsers.*/
     src: url(ems756.github.io/islt_7310/docs/Shadows_Into_Light_Two/ShadowsIntoLightTwo-Regular.ttf);
     }
 /*Style for headings*/
-h1 {color: #0099ff;font-size: 25pt; font-family: sans-serif; display: inline; float:left; clear: both;}
+h1 {color: #0094f7;font-size: 25pt; font-family: sans-serif; clear: both; text-align: center;}
 
 h2 {clear: left; padding-top: 10px;}
 
-h3 {color: #0099ff; font-size: 15pt;}
+h3 {color: #0094f7; font-size: 15pt;}
 
 /*Style for elements*/
 
 body {background-color: aliceblue; font-family: sans-serif; margin: 15px; text-align: justify;}
 
-main {padding-right: 15px; padding-left: 15px; text-align: center;}
+main {padding-right: 35px; padding-left: 35px; text-align: center; clear: left;}
 
 section {font-size: 12pt; text-align: center; padding-right: 25px;}
 
@@ -48,13 +48,13 @@ section li {list-style-type: square; text-align: left;}
 
 ul.a {color:darkblue}
 
-ul.b {color: deepskyblue}
+ul.b {color: royalblue}
 
-img {float: left; padding-right: 15px; margin-left: 10px; clear: left; }
+img {float: left; padding-right: 15px; margin-left: 10px; clear: left;}
 
-blockquote {font-family:'Shadows_Into_Light_Two', serif; color: #0099ff;font-size: 18pt;}
+blockquote {font-family: 'Shadows Into Light Two', cursive; color: #0094f7;font-size: 18pt;}
 
-footer {border-top-color: #0099ff; 
+footer {border-top-color:#0094f7; 
     border-top-style: dashed; 
     padding-bottom: 5px; 
     clear: both;
@@ -69,14 +69,15 @@ background-image: url(images/background%20image.jpg)
 
 #resume {
     padding-top: 100px;
-    float: right;
-    padding-right: 75px;
+    float: left;
+    padding-left: 125px;
    }
 
 .iframe-container {
     padding-top: 80px;
     padding-bottom: 80px;
-    float: left;
+    padding-right: 75px;
+    float: right;
     width: 45%;
 }
 
@@ -118,7 +119,7 @@ background-image: url(images/background%20image.jpg)
 .copyright {font-size: 13px; text-align: left;}
 
 /*Style for email link*/
-a:link{color: #0099ff;text-decoration: none;}
+a:link{color: #0094f7;text-decoration: none;}
 a:visited{color: darkblue;text-decoration: none;}
 a:hover{color: blue;}
 a:focus{color: blue;}
@@ -143,17 +144,21 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         position: relative;
         float: none;
         width: 100%;
+        height: auto;
         max-width: 250px;
         padding-top: 10px;
     }
    .column {float: none;
     width: 100%;
+    height:auto;
     }
     
     .column2 {float: none;
     width:100%;
-    clear: left;
-    padding-top: 50px;}
+    clear: both;
+    padding-top: 10%;
+    height: auto;
+    }
     
     section li {text-align: center;
     padding-right: 40px;}
@@ -184,7 +189,6 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         display: block;
         width: 100%;
         clear: both;
-        padding-top: 420px;
     }
     
     p.c {
@@ -230,6 +234,9 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         padding-bottom: 25%;
         height: 0;
         min-width: 50px;
+        padding-top: 80px;
+        padding-right: 0px;
+        float: none;
     }
     
     .iframe-container iframe {
@@ -242,8 +249,10 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
     
     #resume {
         float:none;
+        text-align: center;
         padding-top: 25%;
         padding-bottom: 25%;
+        padding-left: 0px;
     }
 }
 
@@ -287,4 +296,6 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         clear: both;
     }
 }
+
+
 
