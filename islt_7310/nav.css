@@ -26,7 +26,7 @@ Tested:  July 23, 2020; Passed on Safari and Chrome browsers.*/
     margin-top: 0;
     float:left;
     font-family: 'Shadows Into Light Two', cursive;
-    color:#0094f7;
+    color:#078BE4;
     font-size: 35px;
     position: relative;
     border: none;
@@ -47,7 +47,7 @@ nav>ul li {
     position: relative;
     text-align: center;
     font-weight: bold;
-    color: #0094f7;
+    color: #078BE4;
     font-size: 12pt;
     float: left;
 }
@@ -59,7 +59,7 @@ nav ul li{
 nav a {
     text-decoration: none;
     display: inline-block;
-    border: 2px dashed #0094f7;
+    border: 2px dashed #078BE4;
     padding: 5px 5px 5px 5px;
     width: 150px;
     margin: 2px;
@@ -108,7 +108,7 @@ nav>ul>li:hover>ul{
     float:none;
     margin-top: 0;
     font-family: 'Shadows Into Light Two', cursive;
-    color:#0094f7;
+    color:#078BE4;
     font-size: 35px;
     position: relative;
     border: none;
@@ -138,19 +138,19 @@ nav>ul>li:hover>ul{
     nav>ul li {
         text-align: left;
         font-weight: bold;
-        color: #0094f7;
+        color: #078BE4;
         float: left;
     }
     nav a {
         text-decoration: none;
         display: inline-block;
-        border-top: 3px dashed #0094f7;
-        border-bottom: 3px dashed #0094f7;
+        border-top: 3px dashed #078BE4;
+        border-bottom: 3px dashed #078BE4;
         padding: 15px 0px 15px 35px;
         width: 240px;
         margin-bottom: 2px;
     }
-    nav.LastMobile {border-bottom: 3px dotted #0094f7;}
+    nav.LastMobile {border-bottom: 3px dotted #078BE4;}
         naav ul li ul {
             display: none;
         }

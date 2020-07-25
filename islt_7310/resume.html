@@ -38,15 +38,15 @@ Tested:  July 17, 2020; Passed on Safari and Chrome browsers.
     <body>
         <nav>
             <label id="hamburger">&#9776;</label>
-            <h1 id="name">Emily Sheeley</h1>
+            <p id="name">Emily Sheeley</p>
             <ul>
                 <li><a style= "font-size: 13pt" href= "index.html">Home</a></li>
                 <li class="active"><a style= "font-size: 13pt" href= "resume.html">Resume</a></li>
                 <li><a style= "font-size: 13pt" href="projects.html">Projects</a>
                     <ul id="MobileHide">
-                        <li><a href="#">Project 1</a></li>
-                        <li><a href="#">Project 2</a></li>
-                        <li><a href="#">Project 3</a></li>
+                        <li><a href="projects.html#project1">Project 1</a></li>
+                        <li><a href="projects.html#project2">Project 2</a></li>
+                        <li><a href="projects.html#project3">Project 3</a></li>
                     </ul>
                 </li>
                 <li><a style= "font-size: 13pt" href="reflection.html">Reflection</a></li>
@@ -63,23 +63,23 @@ Tested:  July 17, 2020; Passed on Safari and Chrome browsers.
             </header>
             <p id="resume">Click <a href="docs/Sheeleyresume.pdf" style="font-size: 15pt; text-decoration: underline; font-style: normal;">here</a> to view my resume.</p>
             <div class="iframe-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/aXZHEk1Hws4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aXZHEk1Hws4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </main>
             <br>
             <br>
             <br>
-        <footer>
-            <div>
+         <footer>
                 <p style="font-size: 13px" class="Para4">Contact Emily Sheeley: </p>
-                <img src="images/email%20icon.png" alt="email icon" height="20" width="15" id="email">
+                <img src="images/email%20icon.png" alt="email icon" height="20" width="15"  class="icon">
+                <img src="images/email%20icon.png" alt="email icon" height="20" width="15"  class="iconbig">
                 <address>
-                    <a style="font-size: 13px" href="mailto:ems756@mail.missouri.edu" id="email link">ems756@mail.missouri.edu</a>
+                    <a style="font-size: 13px" href="mailto:ems756@mail.missouri.edu" id="email_link">ems756@mail.missouri.edu</a>
                 </address>
-                <img src="images/phone%20icon.png" alt="phone  icon" height="20" width="15" id="phone">
-                <p>+1 (888) 888-8888</p>
+                <img src="images/phone%20icon.png" alt="phone icon" height="20" width="15"  class="icon">
+                <img src="images/phone%20icon.png" alt="phone icon" height="20" width="15"  class="iconbig">
+                <p id="phone_number">+1 (888) 888-8888</p>
                 <p class= "copyright">&copy; 2020 Emily Sheeley</p>
-            </div> 
-        </footer>
+            </footer>
     </body>
 </html>
