@@ -4,9 +4,9 @@ Author:  Emily Sheeley
 
 School/Term:  University of Missouri, Summer 2020
 
-Developed: July 24, 2020
+Developed: July 27, 2020
 
-Tested:  July 24, 2020; Passed on Safari and Chrome browsers.*/
+Tested:  July 27, 2020; Passed on Safari and Chrome browsers.*/
 
 @font-face {
     font-family: Shadows_Into_Light_Two; 
@@ -90,12 +90,7 @@ nav>ul>li:hover>ul{
 }
 
 @media only screen and (max-width: 640px) {
-    header {
-        position: relative;
-        height: 40px;
-        display: block;
-        width: 100%;
-    }
+    
     #hamburger {
         display: inline-block;
         padding-left: 20px;
@@ -106,7 +101,7 @@ nav>ul>li:hover>ul{
     
     #name {
     float:none;
-    margin-top: 0;
+    margin: 0;
     font-family: 'Shadows Into Light Two', cursive;
     color:#078BE4;
     font-size: 35px;
@@ -114,7 +109,9 @@ nav>ul>li:hover>ul{
     border: none;
     background-color: aliceblue;
     padding-top: 0px;
-    clear: left;
+    padding-left: 0px;
+    text-align: center;
+    display: inline-block;
 }
     
     nav ul, nav:active ul {
