@@ -71,8 +71,7 @@ address {
 .box { 
 width: auto;
 height: 45%;
-background-image: url(images/background%20image.jpg)
-    
+background-image: url(images/background%20image.jpg) 
 }
 
 #resume {
@@ -89,9 +88,38 @@ background-image: url(images/background%20image.jpg)
     width: 45%;
 }
 
+#table{
+    clear: left;
+    padding-top: 20px;
+}
+caption {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 2em;
+}
+table {
+    text-align: center;
+    border: 2px solid black;
+}
+
+ th {
+   text-decoration-color: white;
+     background-color: #078BE4;
+}
+
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
 .box p {color: white;}
 
-
+#standards {
+    text-align: justify;
+}
 #Actively_Learn {
     float: right;
     height: 100%;
@@ -144,6 +172,21 @@ background-image: url(images/background%20image.jpg)
     padding-bottom: 5%;
 }
 
+input {
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 15pt;
+    background-color: #078BE4;
+    text-decoration-color: white;
+}
+
 /*Style for Copyright text*/
 .copyright {font-size: 13px; text-align: left;}
 
@@ -176,6 +219,11 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         width: 100%;
         font-size: 1em;
     }
+    
+    #name {
+        display: inline-block;
+    }
+    
     section {
         position: relative;
         display: block;
@@ -294,6 +342,18 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         padding-top: 25%;
         padding-bottom: 25%;
         padding-left: 0px;
+    }
+    
+    td {
+        display: block;
+    }
+    
+    thead {
+        display: none;
+    }
+    
+    #phone_number {
+        display: inline-block;
     }
 }
 
