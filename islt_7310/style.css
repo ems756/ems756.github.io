@@ -170,7 +170,7 @@ tr:nth-child(odd) {
   display: table;
   clear: both;} 
 
-.#contact_header {
+.contact_header {
     clear:both;
     float: none;
     text-align: center;
