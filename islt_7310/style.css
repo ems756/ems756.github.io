@@ -60,6 +60,14 @@ footer {border-top-color:#078BE4;
     clear: both;
 }
 
+.icon {
+transition: transform 1s;    
+}
+
+.icon:hover {
+    transform: scale(3);
+}
+
 address {
     display: inline-block;
 }
@@ -162,7 +170,7 @@ tr:nth-child(odd) {
   display: table;
   clear: both;} 
 
-#contact_header {
+.#contact_header {
     clear:both;
     float: none;
     text-align: center;
@@ -302,16 +310,9 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         position: relative;
         align-content: center;
         width: auto;
+        padding-top: 25px;
     }
-    
-    #submit_button {
-        width: 60%;
-        text-align: center;
-        clear: both;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    
+   
     .clearfix::after {
         content: "";
         clear: both;
@@ -352,6 +353,12 @@ a.email{text-decoration: none; font-style: italic; font-size: 10pt;}
         display: none;
     }
     
+    footer p {
+        max-width: 200px;
+    }
+    #phone_icon {
+        clear: left;
+    }
     #phone_number {
         display: inline-block;
     }
