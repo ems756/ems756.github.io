@@ -76,6 +76,10 @@ address {
     display: inline-block;
 }
 
+#counter {
+    float: right;
+}
+
 .box { 
 width: auto;
 height: 45%;
@@ -104,8 +108,13 @@ caption {
     font-weight: bold;
     text-align: center;
     padding-left: 15px;
-    font-size: 2em;
+    font-size: 1em;
 }
+
+h4 {
+    text-align: center;
+}
+
 table {
     text-align: center;
     border: 2px solid black;
